@@ -1,0 +1,176 @@
+header{
+    background-color: #525f64;
+    z-index: 600;
+    height: 15%;
+    width: 100%;
+    position:fixed;
+    font-weight: 200;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    top: 4%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+nav h1{
+    color: #ffffff;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+nav li{
+    font-weight: 100;
+    font-size: 17px;
+    width:50%;
+    text-decoration: none;
+}
+nav a{
+    margin: 8px;
+    text-decoration: none;
+    color: rgb(177, 186, 190);
+    margin: 5px;
+    padding: 5px;
+    transition: 0.2s;
+    
+}
+nav a:hover{
+    color: rgb(231, 233, 235);
+    text-decoration: underline;
+}
+
+.subnav1{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #525f64;
+}
+.subnav1 ul{
+    display: block;
+    margin: 10px;
+}
+.subnav1 ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+.subnav2{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #525f64;
+}
+.subnav2 ul{
+    display: block;
+    margin: 10px;
+}
+.subnav2 ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+.subnav3{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #525f64;
+}
+.subnav3 ul{
+    display: block;
+    margin: 10px;
+}
+.subnav3 ul li{
+    width: 150px;
+    padding: 10px;
+}
+main{
+    background-image: linear-gradient(#c5cbcd);
+    color: #565454;
+    padding-top: 10%;
+    padding-left: 26px;
+    text-align:center;
+}
+.about p:first-letter{
+    font-size: 17px;
+    padding-left: 30px;
+}
+.about{
+    color: #565454;
+    padding-top: 5%;
+    padding-left: 26px;
+    text-align:center;
+}
+.about p:first-letter{
+    font-size: 17px;
+    padding-left: 30px;
+}
+.faculty{
+    color: #565454;
+    padding-top: 5%;
+    padding-left: 26px;
+    text-align:center;
+}
+.faculty p:first-letter{
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+#events{
+    width: 60%;
+    margin-top: 90px;
+    color: #565454;
+    text-align: center;
+}
+#events h2{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#events .card{
+    margin: 20px;
+}
+#contact{
+    margin-top: 100px;
+    height: 500px;
+    width: 700px;
+}
+#contact h2{
+    margin-bottom: 20px;
+}
+
+footer{
+    position:relative;
+    background-color: #8398a1;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    padding: 20;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 40%;
+    padding-right: 40%;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+.icons{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.fa:hover{
+    color: white;
+    column-gap: 5px;
+    display: inline-block;
+}
